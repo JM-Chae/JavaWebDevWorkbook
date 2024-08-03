@@ -1,19 +1,24 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: CJM
-  Date: 24. 8. 1.
-  Time: 오후 9:38
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType = "text/html;charset=UTF-8" language = "java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Todo Read</title>
 </head>
 <body>
-<div1>${dto.tno}</div1>
-<div2>${dto.title}</div2>
-<div3>${dto.dueDate}</div3>
-<div4>${dto.finished}</div4>
+<div>
+    <input type="text" name="tno" value="${dto.tno}" readonly>
+</div>
+<div>
+    <input type="text" name="title" value="${dto.title}" readonly>
+</div>
+<div>
+    <input type="date" name="dueDate" value="${dto.dueDate}">
+</div>
+<div>
+    <input type="checkbox" name="finished" ${dto.finished ? "checked": ""} readonly >
+</div>
+<div>
+    <a href="/todo/modify?tno=${dto.tno}">Modify/Remove</a>
+    <a href="/todo/list">List</a>
+</div>
 </body>
 </html>

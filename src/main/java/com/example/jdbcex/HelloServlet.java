@@ -1,4 +1,4 @@
-package com.example.JavaWebDevWorkbook;
+package com.example.jdbcex;
 
 import java.io.*;
 
@@ -17,6 +17,7 @@ public class HelloServlet extends HttpServlet
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException
       {
+
         response.setContentType("text/html");
 
         // Hello
