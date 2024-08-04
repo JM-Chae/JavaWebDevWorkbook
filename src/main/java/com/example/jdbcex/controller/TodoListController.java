@@ -3,6 +3,7 @@ package com.example.jdbcex.controller;
 
 import com.example.jdbcex.dto.TodoDTO;
 import com.example.jdbcex.service.TodoService;
+import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -23,6 +24,8 @@ public class TodoListController extends HttpServlet
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException
       {
         log.info("todo list.................");
+        ServletContext servletContext = req.getServletContext();
+        log.info("appName:   " + servletContext.getAttribute("appName"));
 
         try
           {
