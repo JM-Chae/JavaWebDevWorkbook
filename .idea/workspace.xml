@@ -1,15 +1,208 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="Gradle : com.example : springex-1.0-SNAPSHOT.war (exploded)" />
-    </artifacts-to-build>
-  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f35547be-4974-40e4-9aac-afb4477d4fe5" name="변경" comment="4. Spring and Spring Web MVC" />
+    <list default="true" id="284bf9cf-61d4-487a-86bd-93206dda031f" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2b253f79-0057-4608-aac0-e452d09ad6d9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2b253f79-0057-4608-aac0-e452d09ad6d9/storage_v2/_src_/schema/webdb.0lK8Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/springex.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/springex.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/classes/com/example/springex/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/classes/com/example/springex/sample/EventSampleDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/classes/com/example/springex/sample/SampleDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/classes/com/example/springex/sample/SampleDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/classes/com/example/springex/sample/SampleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/HikariCP-5.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/caffeine-2.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/checker-qual-3.32.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/error_prone_annotations-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/jcl-over-slf4j-2.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/jna-5.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/jna-platform-5.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/log4j-api-2.23.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/log4j-core-2.23.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/log4j-slf4j2-impl-2.23.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/mariadb-java-client-3.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/micrometer-commons-1.12.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/micrometer-observation-1.12.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/slf4j-api-2.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/spring-aop-6.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/spring-beans-6.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/spring-context-6.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/spring-core-6.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/spring-expression-6.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/spring-jcl-6.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/spring-test-6.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/spring-web-6.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/spring-webmvc-6.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/lib/waffle-jna-3.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/root.context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/servlet.context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/spirngex-1.0-SNAPSHOT.war/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/com/example/springex/config/ModelMapperConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/com/example/springex/controller/Formatter/CheckboxFormatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/com/example/springex/controller/Formatter/LocalDateFormatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/com/example/springex/controller/SampleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/com/example/springex/controller/TodoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/com/example/springex/controller/exception/CommonExceptionAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/com/example/springex/domain/TodoVO$TodoVOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/com/example/springex/domain/TodoVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/com/example/springex/dto/PageRequestDTO$PageRequestDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/com/example/springex/dto/PageRequestDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/com/example/springex/dto/PageResponseDTO$PageResponseDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/com/example/springex/dto/PageResponseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/com/example/springex/dto/TodoDTO$TodoDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/com/example/springex/dto/TodoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/com/example/springex/mapper/TimeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/com/example/springex/mapper/TimeMapper2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/com/example/springex/mapper/TodoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/com/example/springex/service/TodoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/com/example/springex/service/TodoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/mappers/TimeMapper2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/classes/mappers/TodoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/HikariCP-5.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/caffeine-2.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/checker-qual-3.32.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/classmate-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/error_prone_annotations-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/glassfish-jstl-11.0.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/hibernate-validator-8.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/jakarta.el-api-5.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/jakarta.servlet-api-6.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/jakarta.servlet.jsp.jstl-2.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/jakarta.servlet.jsp.jstl-api-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/jakarta.validation-api-3.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/jboss-logging-3.4.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/jcl-over-slf4j-2.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/jna-5.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/jna-platform-5.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/log4j-api-2.23.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/log4j-core-2.23.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/log4j-slf4j2-impl-2.23.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/mariadb-java-client-3.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/micrometer-commons-1.12.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/micrometer-observation-1.12.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/modelmapper-3.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/mybatis-3.5.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/mybatis-spring-3.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/slf4j-api-2.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/spring-aop-6.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/spring-beans-6.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/spring-context-6.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/spring-core-6.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/spring-expression-6.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/spring-jcl-6.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/spring-jdbc-6.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/spring-test-6.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/spring-tx-6.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/spring-web-6.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/spring-webmvc-6.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/lib/waffle-jna-3.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/root.context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/servlet.context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/views/custom404.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/views/todo/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/views/todo/modify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/views/todo/read.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/views/todo/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/exploded/springex-1.0-SNAPSHOT.war/resources/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/springex/config/ModelMapperConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/springex/controller/Formatter/CheckboxFormatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/springex/controller/Formatter/LocalDateFormatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/springex/controller/SampleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/springex/controller/TodoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/springex/controller/exception/CommonExceptionAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/springex/domain/TodoVO$TodoVOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/springex/domain/TodoVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/springex/dto/PageRequestDTO$PageRequestDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/springex/dto/PageRequestDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/springex/dto/PageResponseDTO$PageResponseDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/springex/dto/PageResponseDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/springex/dto/TodoDTO$TodoDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/springex/dto/TodoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/springex/mapper/TimeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/springex/mapper/TimeMapper2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/springex/mapper/TodoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/springex/service/TodoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/example/springex/service/TodoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/mappers/TimeMapper2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/mappers/TodoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/example/springex/mapper/TimeMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/example/springex/mapper/TodoMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/example/springex/service/TodoServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springex/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springex/config/ModelMapperConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springex/controller/Formatter/CheckboxFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springex/controller/Formatter/LocalDateFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springex/controller/SampleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springex/controller/TodoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springex/controller/exception/CommonExceptionAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springex/domain/TodoVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springex/dto/PageRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springex/dto/PageResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springex/dto/TodoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springex/mapper/TimeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springex/mapper/TimeMapper2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springex/mapper/TodoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springex/sample/EventSampleDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springex/sample/SampleDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springex/sample/SampleDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springex/sample/SampleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springex/service/TodoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springex/service/TodoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lombok.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/TimeMapper2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/TodoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/root.context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet.context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/custom404.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/noUse/ex4.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/noUse/ex4_1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/noUse/ex6.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/noUse/hello.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/modify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/read.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/todo/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springex/mapper/TimeMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springex/mapper/TodoMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springex/sample/SampleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springex/service/TodoServiceTest.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,17 +213,41 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Boot" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Boot" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
+    <option name="SCHEME" value="프로젝트" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,53 +264,49 @@
     "accountId": "0d8b42fa-d2b8-47ed-b8bb-d9b87278a20a"
   }
 }]]></component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
+  &quot;associatedIndex&quot;: 5
 }</component>
-  <component name="ProjectId" id="2kBaYx6KVpB87zcEVgs5ln9Sd8z" />
+  <component name="ProjectId" id="2km0r3bCZwLk97WJ9anHF2KfsgY" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
-    "Gradle.소스 다운로드.executor": "Run",
-    "JUnit.SampleTest (1).executor": "Run",
-    "JUnit.SampleTest.executor": "Run",
-    "JUnit.SampleTest.testService1.executor": "Run",
-    "JUnit.TimeMapperTest.executor": "Run",
-    "JUnit.TodoMapperTest.executor": "Run",
-    "JUnit.TodoMapperTest.testInsert.executor": "Run",
-    "JUnit.TodoMapperTest.testSelectAll.executor": "Run",
-    "JUnit.TodoMapperTest.testSelectList.executor": "Run",
-    "JUnit.TodoMapperTest.testSelectOne.executor": "Run",
-    "JUnit.TodoMapperTest.testSelectSearch.executor": "Run",
-    "JUnit.TodoServiceTest.executor": "Run",
-    "JUnit.TodoServiceTest.testPaging.executor": "Run",
+    "Gradle.Boot [compileJava].executor": "Run",
+    "Gradle.Boot 빌드.executor": "Run",
+    "Gradle.DataSourceTests.executor": "Run",
+    "JUnit.BoardRepositoryTests.executor": "Run",
+    "JUnit.BoardRepositoryTests.testDelete.executor": "Run",
+    "JUnit.BoardRepositoryTests.testPaging.executor": "Run",
+    "JUnit.BoardRepositoryTests.testSearch1.executor": "Run",
+    "JUnit.BoardRepositoryTests.testSearchAll.executor": "Run",
+    "JUnit.BoardRepositoryTests.testSelect.executor": "Run",
+    "JUnit.BoardRepositoryTests.testUpdate.executor": "Run",
+    "JUnit.BoardServiceTests.executor": "Run",
+    "JUnit.BoardServiceTests.testList.executor": "Run",
+    "JUnit.BoardServiceTests.testModify.executor": "Run",
+    "JUnit.DataSourceTests.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Tomcat 서버.Tomcat 10.1.26.executor": "Run",
+    "Spring Boot.BootApplication.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "4.-Spring-and-Spring-web-MVC",
+    "git-widget-placeholder": "5.-Spring-to-SpringBoot",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/gradle-8.9",
+    "last_directory_selection": "C:/Users/CJM/OneDrive/DeskTop/Coding/Boot/src/main/java/com/example/boot/domain",
+    "last_opened_file_path": "C:/Users/CJM/OneDrive/DeskTop/Coding/JavaWebDevWorkbook",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "프로젝트",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.4402299",
-    "settings.editor.selected.configurable": "fileTemplates",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -103,19 +316,15 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CJM\OneDrive\DeskTop\Coding" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\CJM\OneDrive\바탕 화면\Coding\spirngex\src\main\webapp\WEB-INF\views\noUse" />
-      <recent name="C:\Users\CJM\OneDrive\바탕 화면\Coding\spirngex\src\main\webapp\WEB-INF\views" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.example.springex.service" />
-      <recent name="com.example.springex.mapper" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.springex.mapper" />
+      <recent name="com.example.boot.service" />
+      <recent name="com.example.boot.repository" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -125,191 +334,112 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat 서버.Tomcat 10.1.26">
-    <configuration name="TodoMapperTest.testSelectList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springex.test" />
+  <component name="RunManager" selected="Spring Boot.BootApplication">
+    <configuration name="BoardRepositoryTests.testSearch1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Boot.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.springex.mapper.*" />
+          <option name="PATTERN" value="com.example.boot.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.springex.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springex.mapper.TodoMapperTest" />
-      <option name="METHOD_NAME" value="testSelectList" />
+      <option name="PACKAGE_NAME" value="com.example.boot.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.example.boot.repository.BoardRepositoryTests" />
+      <option name="METHOD_NAME" value="testSearch1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoMapperTest.testSelectOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springex.test" />
+    <configuration name="BoardRepositoryTests.testSearchAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Boot.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.springex.mapper.*" />
+          <option name="PATTERN" value="com.example.boot.repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.springex.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springex.mapper.TodoMapperTest" />
-      <option name="METHOD_NAME" value="testSelectOne" />
+      <option name="PACKAGE_NAME" value="com.example.boot.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.example.boot.repository.BoardRepositoryTests" />
+      <option name="METHOD_NAME" value="testSearchAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoMapperTest.testSelectSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springex.test" />
+    <configuration name="BoardServiceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Boot.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.springex.mapper.*" />
+          <option name="PATTERN" value="com.example.boot.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.springex.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springex.mapper.TodoMapperTest" />
-      <option name="METHOD_NAME" value="testSelectSearch" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TodoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springex.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.springex.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.springex.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springex.service.TodoServiceTest" />
+      <option name="PACKAGE_NAME" value="com.example.boot.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.boot.service.BoardServiceTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoServiceTest.testPaging" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springex.test" />
+    <configuration name="BoardServiceTests.testList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Boot.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.springex.service.*" />
+          <option name="PATTERN" value="com.example.boot.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.springex.service" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springex.service.TodoServiceTest" />
-      <option name="METHOD_NAME" value="testPaging" />
+      <option name="PACKAGE_NAME" value="com.example.boot.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.boot.service.BoardServiceTests" />
+      <option name="METHOD_NAME" value="testList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 10.1.26" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.26" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
-      <deployment>
-        <artifact name="Gradle : com.example : springex-1.0-SNAPSHOT.war (exploded)">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="d9df5340-00f3-4e75-b94a-b87c37471806" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="60890" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
+    <configuration name="BoardServiceTests.testModify" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Boot.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.boot.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.boot.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.boot.service.BoardServiceTests" />
+      <option name="METHOD_NAME" value="testModify" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Gradle : com.example : springex-1.0-SNAPSHOT.war (exploded)" />
-        </option>
+      </method>
+    </configuration>
+    <configuration name="BootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="22" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Boot.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.boot.BootApplication" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TodoMapperTest.testSelectList" />
-      <item itemvalue="JUnit.TodoMapperTest.testSelectSearch" />
-      <item itemvalue="JUnit.TodoServiceTest.testPaging" />
-      <item itemvalue="JUnit.TodoMapperTest.testSelectOne" />
-      <item itemvalue="JUnit.TodoServiceTest" />
-      <item itemvalue="Tomcat 서버.Tomcat 10.1.26" />
+      <item itemvalue="JUnit.BoardServiceTests" />
+      <item itemvalue="JUnit.BoardServiceTests.testList" />
+      <item itemvalue="JUnit.BoardServiceTests.testModify" />
+      <item itemvalue="JUnit.BoardRepositoryTests.testSearch1" />
+      <item itemvalue="JUnit.BoardRepositoryTests.testSearchAll" />
+      <item itemvalue="Spring Boot.BootApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TodoMapperTest.testSelectSearch" />
-        <item itemvalue="JUnit.TodoServiceTest" />
-        <item itemvalue="JUnit.TodoServiceTest.testPaging" />
-        <item itemvalue="JUnit.TodoMapperTest.testSelectList" />
-        <item itemvalue="JUnit.TodoMapperTest.testSelectOne" />
+        <item itemvalue="JUnit.BoardServiceTests.testList" />
+        <item itemvalue="JUnit.BoardServiceTests.testModify" />
+        <item itemvalue="JUnit.BoardServiceTests" />
+        <item itemvalue="JUnit.BoardRepositoryTests.testSearchAll" />
+        <item itemvalue="JUnit.BoardRepositoryTests.testSearch1" />
       </list>
     </recent_temporary>
   </component>
@@ -324,44 +454,19 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="f35547be-4974-40e4-9aac-afb4477d4fe5" name="변경" comment="" />
-      <created>1722759479464</created>
+      <changelist id="284bf9cf-61d4-487a-86bd-93206dda031f" name="변경" comment="" />
+      <created>1723873643380</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1722759479464</updated>
-      <workItem from="1722759480514" duration="8835000" />
-      <workItem from="1722860296004" duration="6980000" />
-      <workItem from="1722945763509" duration="5741000" />
-      <workItem from="1723031374433" duration="7025000" />
-      <workItem from="1723118664749" duration="8360000" />
-      <workItem from="1723867692436" duration="1499000" />
-      <workItem from="1723872107300" duration="331000" />
+      <updated>1723873643380</updated>
+      <workItem from="1723873644596" duration="2705000" />
+      <workItem from="1723876504429" duration="13238000" />
+      <workItem from="1723955154951" duration="24253000" />
+      <workItem from="1723982145973" duration="526000" />
+      <workItem from="1723982729869" duration="597000" />
+      <workItem from="1724069391843" duration="117000" />
+      <workItem from="1724069597220" duration="53000" />
     </task>
-    <task id="LOCAL-00001" summary="4. Spring and Spring Web MVC">
-      <option name="closed" value="true" />
-      <created>1723872184565</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1723872184565</updated>
-    </task>
-    <task id="LOCAL-00002" summary="4. Spring and Spring Web MVC">
-      <option name="closed" value="true" />
-      <created>1723872334369</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1723872334369</updated>
-    </task>
-    <task id="LOCAL-00003" summary="4. Spring and Spring Web MVC">
-      <option name="closed" value="true" />
-      <created>1723872374291</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1723872374291</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,16 +474,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="4. Spring and Spring Web MVC" />
-    <option name="LAST_COMMIT_MESSAGE" value="4. Spring and Spring Web MVC" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException" package="org.springframework.beans.factory.xml" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
