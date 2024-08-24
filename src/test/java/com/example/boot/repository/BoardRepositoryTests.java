@@ -1,6 +1,7 @@
 package com.example.boot.repository;
 
 import com.example.boot.domain.Board;
+import com.example.boot.dto.BoardListReplyCountDTO;
 import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -99,5 +100,20 @@ class BoardRepositoryTests
         log.info(result.getNumber());
         log.info(result.hasPrevious() +": " + result.hasNext());
         result.forEach(board -> log.info(board));
+      }
+
+    @Test
+    public void testSearchReplyCount()
+      {
+        String[] types = {"t", "c", "w"};
+        String keyword = "22";
+        Pageable pageable = PageRequest.of(0,10, Sort.by("bno").descending());
+        Page<BoardListReplyCountDTO> result = boardRepository.searchWithReplyCount(types, keyword, pageable);
+
+        log.info(result.getTotalPages());
+        log.info(result.getSize());
+        log.info(result.getNumber());
+        log.info(result.hasPrevious() +": " + result.hasNext());
+        result.getContent().forEach(board -> log.info(board));
       }
   }

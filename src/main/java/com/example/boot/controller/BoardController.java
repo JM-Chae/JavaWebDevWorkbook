@@ -1,9 +1,11 @@
 package com.example.boot.controller;
 
 import com.example.boot.dto.BoardDTO;
+import com.example.boot.dto.BoardListReplyCountDTO;
 import com.example.boot.dto.PageRequestDTO;
 import com.example.boot.dto.PageResponseDTO;
 import com.example.boot.service.BoardService;
+import io.swagger.v3.oas.annotations.Operation;
 import jakarta.validation.Valid;
 
 import lombok.RequiredArgsConstructor;
@@ -14,6 +16,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+
 @Controller
 @RequestMapping("/board")
 @Log4j2
@@ -22,20 +25,24 @@ public class BoardController
   {
     private final BoardService boardService;
 
+    @Operation(summary = "list")
     @GetMapping("/list")
     public void list(PageRequestDTO pageRequestDTO, Model model)
       {
-        PageResponseDTO<BoardDTO> responseDTO = boardService.list(pageRequestDTO);
+//        PageResponseDTO<BoardDTO> responseDTO = boardService.list(pageRequestDTO);
+        PageResponseDTO<BoardListReplyCountDTO> responseDTO = boardService.listWithReplyCount(pageRequestDTO);
         log.info(responseDTO);
         model.addAttribute("responseDTO", responseDTO);
       }
 
+    @Operation(summary = "register")
     @GetMapping("/register")
     public void registerGET()
       {
 
       }
 
+    @Operation(summary = "register")
     @PostMapping("/register")
     public String registerPost(@Valid BoardDTO boardDTO, BindingResult bindingResult, RedirectAttributes redirectAttributes)
       {
@@ -48,12 +55,14 @@ public class BoardController
             return "redirect:/board/register";
           }
 
+
         log.info(boardDTO);
         Long bno = boardService.register(boardDTO);
         redirectAttributes.addFlashAttribute("result", bno);
         return "redirect:/board/list";
       }
 
+    @Operation(summary = "search")
     @GetMapping({"/read", "/modify"})
     public void read(Long bno, PageRequestDTO pageRequestDTO, Model model)
       {
@@ -61,7 +70,7 @@ public class BoardController
         log.info(boardDTO);
         model.addAttribute("dto", boardDTO);
       }
-
+    @Operation(summary = "modify")
     @PostMapping("/modify")
     public String modify(PageRequestDTO pageRequestDTO, @Valid BoardDTO boardDTO, BindingResult bindingResult, RedirectAttributes redirectAttributes)
       {
@@ -81,6 +90,7 @@ public class BoardController
         return "redirect:/board/read";
       }
 
+    @Operation(summary = "remove")
     @PostMapping("/remove")
     public String remove(Long bno, RedirectAttributes redirectAttributes)
       {

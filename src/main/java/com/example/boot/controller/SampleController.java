@@ -1,5 +1,6 @@
 package com.example.boot.controller;
 
+import io.swagger.v3.oas.annotations.Operation;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -16,6 +17,7 @@ import java.util.stream.IntStream;
 @Log4j2
 public class SampleController
   {
+    @Operation(summary = "hello")
     @GetMapping("/hello")
     public void hello(Model model)
       {
@@ -23,6 +25,7 @@ public class SampleController
         model.addAttribute("msg", "sadasdsadas");
       }
 
+    @Operation(summary = "ex/ex1")
     @GetMapping("/ex/ex1")
     public void ex1(Model model)
       {
@@ -41,6 +44,7 @@ public class SampleController
           {return p3;}
       }
 
+    @Operation(summary ="ex/ex2")
     @GetMapping("/ex/ex2")
     public void ex2(Model model)
       {
@@ -63,7 +67,7 @@ public class SampleController
         sampleDTO.p3 = "Value -- p3";
         model.addAttribute("dto", sampleDTO);
       }
-
+    @Operation(summary ="ex/ex3")
     @GetMapping("/ex/ex3")
     public void ex3(Model model)
       {

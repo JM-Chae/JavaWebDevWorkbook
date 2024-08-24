@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Log4j2
 public class SampleJSONController
   {
-    @GetMapping("/helloArr")
+    @GetMapping("/api/helloArr")
     public String[] helloArr ()
       {
         log.info("helloArr");
