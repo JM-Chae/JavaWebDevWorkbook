@@ -1,10 +1,12 @@
 package com.example.boot.dto;
 
 import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.*;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Data
 @Builder
@@ -12,7 +14,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 public class BoardDTO
   {
-    @NonNull
+
     private Long bno;
 
     @NotEmpty
@@ -26,4 +28,6 @@ public class BoardDTO
     private String writer;
     private LocalDateTime regDate;
     private LocalDateTime modDate;
+
+    private List<String> fileNames;
   }
