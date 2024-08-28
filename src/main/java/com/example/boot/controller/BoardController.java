@@ -10,6 +10,7 @@ import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.core.io.Resource;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -41,6 +42,7 @@ public class BoardController
         model.addAttribute("responseDTO", responseDTO);
       }
 
+    @PreAuthorize("hasRole('USER')")
     @Operation(summary = "register")
     @GetMapping("/register")
     public void registerGET()
@@ -69,6 +71,7 @@ public class BoardController
         return "redirect:/board/list";
       }
 
+    @PreAuthorize("isAuthenticated()")
     @Operation(summary = "search")
     @GetMapping({"/read", "/modify"})
     public void read(Long bno, PageRequestDTO pageRequestDTO, Model model)
@@ -77,6 +80,8 @@ public class BoardController
         log.info(boardDTO);
         model.addAttribute("dto", boardDTO);
       }
+
+    @PreAuthorize("principal.username == #boardDTO.writer")
     @Operation(summary = "modify")
     @PostMapping("/modify")
     public String modify(PageRequestDTO pageRequestDTO, @Valid BoardDTO boardDTO, BindingResult bindingResult, RedirectAttributes redirectAttributes)
@@ -97,6 +102,7 @@ public class BoardController
         return "redirect:/board/read";
       }
 
+    @PreAuthorize("principal.username == #boardDTO.writer")
     @Operation(summary = "remove")
     @PostMapping("/remove")
     public String remove(BoardDTO boardDTO, RedirectAttributes redirectAttributes)
