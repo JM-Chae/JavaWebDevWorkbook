@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="284bf9cf-61d4-487a-86bd-93206dda031f" name="변경" comment="7. File Upload">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/boot/config/CustomSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/boot/controller/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/boot/domain/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/boot/domain/MemberRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/boot/dto/MemberJoinDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/boot/repository/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/boot/security/CustomUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/boot/security/dto/MemberSecurityDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/boot/security/handler/Custom403Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/boot/security/handler/CustomOAuth2UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/boot/security/handler/CustomSocialLoginSuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/boot/service/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/boot/service/MemberServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/member/join.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/member/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/boot/repository/MemberRepositoryTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.9/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.9/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/boot/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/boot/controller/BoardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/board/read.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/board/read.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/board/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/board/register.html" afterDir="false" />
-    </list>
+    <list default="true" id="5abae5a6-b589-4dbf-bf25-3cdf950dc532" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +26,18 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Boot" type="f1a62948:ProjectNode" />
+                <item name="API01" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="API01" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="API01" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -65,106 +50,55 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="7.-File-Upload" />
-      </map>
-    </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;JM-Chae&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/JM-Chae/JavaWebDevWorkbook.git&quot;,
-    &quot;accountId&quot;: &quot;0d8b42fa-d2b8-47ed-b8bb-d9b87278a20a&quot;
-  }
-}</component>
   <component name="JsbtTreeLayoutManager">
     <layout place="tools.popupGrunt">
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
+  &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="2km0r3bCZwLk97WJ9anHF2KfsgY" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2lHom46S6kWxFUgfMQE0szEimNU" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Gradle.Boot [compileJava].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Boot 빌드.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.DataSourceTests.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.JavaWebDevWorkbook [bootRun].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.JavaWebDevWorkbook [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.JavaWebDevWorkbook [compileJava].executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryTests.testDelete.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryTests.testInsertAll.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryTests.testInsertWithImages.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryTests.testListWithAll.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryTests.testModify.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryTests.testModifyImages.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryTests.testPaging.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryTests.testReadAll.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryTests.testReadWithImages.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryTests.testRegisterWithImages.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryTests.testRemoveALL.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryTests.testRemoveAll.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryTests.testSearch1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryTests.testSearchAll.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryTests.testSearchImageReplyCount.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryTests.testSearchReplyCount.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryTests.testSelect.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryTests.testUpdate.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardServiceTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardServiceTests.testList.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardServiceTests.testModify.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DataSourceTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberRepositoryTests.insertMembers.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberRepositoryTests.insertMemebers.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberRepositoryTests.testRoad.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemberRepositoryTests.testUpdate.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ReplyRepositoryTests.testBoardReplies.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ReplyRepositoryTests.testInsert.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ReplyServiceTests.testRegister.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript 디버그.join.html.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.API01 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.API01 [compileJava].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.API01 [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.API01 빌드.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.APIUserRepositoryTests.testInserts.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JWTUtilTests.testAll.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JWTUtilTests.testGenerate.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.JWTUtilTests.testValidateToken.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TodoRepositoryTests.testInsert.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TodoRepositoryTests.testSearch.executor&quot;: &quot;Run&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.BootApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Api01Application.executor&quot;: &quot;Run&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;8.-Spring-Security&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/CJM/OneDrive/DeskTop/Coding/Boot/src/main/java/com/example/boot/domain&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/CJM/OneDrive/DeskTop/Coding/JavaWebDevWorkbook&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.4402299&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -175,123 +109,154 @@
   }
 }</component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\CJM\OneDrive\DeskTop\Coding" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\CJM\OneDrive\DeskTop\Coding\JavaWebDevWorkbook\src\main\resources\templates" />
-      <recent name="C:\Users\CJM\OneDrive\DeskTop\Coding\JavaWebDevWorkbook\src\main\resources\static" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.example.boot.repository" />
-      <recent name="com.example.boot.service" />
+      <recent name="com.example.api01.repository" />
     </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
-        <option value="DatabaseScript" />
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MemberRepositoryTests.testUpdate">
-    <configuration name="MemberRepositoryTests.insertMembers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Boot.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.boot.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.boot.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.example.boot.repository.MemberRepositoryTests" />
-      <option name="METHOD_NAME" value="insertMembers" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemberRepositoryTests.insertMemebers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Boot.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.boot.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.boot.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.example.boot.repository.MemberRepositoryTests" />
-      <option name="METHOD_NAME" value="insertMemebers" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemberRepositoryTests.testRoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Boot.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.boot.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.boot.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.example.boot.repository.MemberRepositoryTests" />
-      <option name="METHOD_NAME" value="testRoad" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemberRepositoryTests.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Boot.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.boot.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.boot.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.example.boot.repository.MemberRepositoryTests" />
-      <option name="METHOD_NAME" value="testUpdate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="join.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Boot/src/main/resources/templates/member/join.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="Gradle.JWTUtilTests.testAll">
+    <configuration name="API01 [compileJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="compileJava" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="BootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="22" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <configuration name="JWTUtilTests.testAll" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.api01.util.JWTUtilTests.testAll&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="JWTUtilTests.testGenerate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.api01.util.JWTUtilTests.testGenerate&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TodoRepositoryTests.testInsert" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.api01.repository.TodoRepositoryTests.testInsert&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TodoRepositoryTests.testSearch" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.api01.repository.TodoRepositoryTests.testSearch&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Api01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="Boot.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.boot.BootApplication" />
-      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="API01.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.api01.Api01Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="JavaScript 디버그.join.html" />
-      <item itemvalue="JUnit.MemberRepositoryTests.testUpdate" />
-      <item itemvalue="JUnit.MemberRepositoryTests.insertMembers" />
-      <item itemvalue="JUnit.MemberRepositoryTests.insertMemebers" />
-      <item itemvalue="JUnit.MemberRepositoryTests.testRoad" />
-      <item itemvalue="Spring Boot.BootApplication" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MemberRepositoryTests.testUpdate" />
-        <item itemvalue="JavaScript 디버그.join.html" />
-        <item itemvalue="JUnit.MemberRepositoryTests.testRoad" />
-        <item itemvalue="JUnit.MemberRepositoryTests.insertMembers" />
-        <item itemvalue="JUnit.MemberRepositoryTests.insertMemebers" />
+        <item itemvalue="Gradle.JWTUtilTests.testAll" />
+        <item itemvalue="Gradle.JWTUtilTests.testGenerate" />
+        <item itemvalue="Gradle.TodoRepositoryTests.testSearch" />
+        <item itemvalue="Gradle.TodoRepositoryTests.testInsert" />
+        <item itemvalue="Gradle.API01 [compileJava]" />
       </list>
     </recent_temporary>
   </component>
@@ -306,75 +271,28 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="284bf9cf-61d4-487a-86bd-93206dda031f" name="변경" comment="" />
-      <created>1723873643380</created>
+      <changelist id="5abae5a6-b589-4dbf-bf25-3cdf950dc532" name="변경" comment="" />
+      <created>1724846519318</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1723873643380</updated>
-      <workItem from="1723873644596" duration="2705000" />
-      <workItem from="1723876504429" duration="13238000" />
-      <workItem from="1723955154951" duration="24253000" />
-      <workItem from="1723982145973" duration="526000" />
-      <workItem from="1723982729869" duration="597000" />
-      <workItem from="1724069391843" duration="117000" />
-      <workItem from="1724069597220" duration="4080000" />
-      <workItem from="1724155888932" duration="5157000" />
-      <workItem from="1724237122802" duration="11670000" />
-      <workItem from="1724327007279" duration="5124000" />
-      <workItem from="1724412596673" duration="8428000" />
-      <workItem from="1724421266452" duration="1809000" />
-      <workItem from="1724471460542" duration="28782000" />
-      <workItem from="1724560085800" duration="19661000" />
-      <workItem from="1724673227651" duration="7423000" />
-      <workItem from="1724759830268" duration="5594000" />
-      <workItem from="1724844929103" duration="635000" />
+      <updated>1724846519318</updated>
+      <workItem from="1724846520481" duration="68000" />
+      <workItem from="1724846598762" duration="26000" />
+      <workItem from="1724846637332" duration="4118000" />
+      <workItem from="1724930585290" duration="7725000" />
+      <workItem from="1725080590272" duration="24390000" />
+      <workItem from="1725168425652" duration="1564000" />
     </task>
-    <task id="LOCAL-00001" summary="5. Spring to SpringBoot">
-      <option name="closed" value="true" />
-      <created>1724069697917</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1724069697917</updated>
-    </task>
-    <task id="LOCAL-00002" summary="6. Ajax and JSON">
-      <option name="closed" value="true" />
-      <created>1724471610971</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1724471610971</updated>
-    </task>
-    <task id="LOCAL-00003" summary="7. File Upload">
-      <option name="closed" value="true" />
-      <created>1724570288225</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1724570288225</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="4. Spring and Spring Web MVC" />
-    <MESSAGE value="5. Spring to SpringBoot" />
-    <MESSAGE value="6. Ajax and JSON" />
-    <MESSAGE value="7. File Upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="7. File Upload" />
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/example/boot/repository/BoardRepositoryTests.java</url>
-          <line>305</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GradleRunConfiguration">
+        <watch expression="((HashMap.Node)((HashMap)headers).entrySet().toArray()[0]).getKey()" custom="java.util.HashMap.Node,java.util.HashMap" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
